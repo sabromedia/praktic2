@@ -1,0 +1,44 @@
+mainwindow.xaml:
+
+<Window x:Class="praktic2wpf.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:praktic2wpf"
+        mc:Ignorable="d"
+       Title="Номер дня недели" Height="200" Width="300">
+    <Grid>
+        <Label Content="Введите номер дня года (1-365):" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="dayOfYearTextBox" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Посчитать" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="75" Click="BtnOK_Click"/>
+        <Label x:Name="dayOfWeekLabel" Content="Номер дня недели:" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
+
+mainwindow.xaml.cs:
+
+namespace praktic2wpf
+{
+    /// <summary>
+    /// Логика взаимодействия для MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnOK_Click(object sender, RoutedEventArgs e)
+        {
+            int dayOfYear = int.Parse(dayOfYearTextBox.Text);
+
+            int dayOfWeek = (dayOfYear + 4) % 7;
+            if (dayOfWeek == 0)
+                dayOfWeek = 7;
+
+            dayOfWeekLabel.Content = "Номер дня недели: " + dayOfWeek;
+        }
+    }
+}
