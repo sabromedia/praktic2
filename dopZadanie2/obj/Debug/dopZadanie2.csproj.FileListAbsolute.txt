@@ -1,0 +1,15 @@
+D:\prakticTSR\praktic2TSR\dopZadanie2\bin\Debug\dopZadanie2.exe.config
+D:\prakticTSR\praktic2TSR\dopZadanie2\bin\Debug\dopZadanie2.exe
+D:\prakticTSR\praktic2TSR\dopZadanie2\bin\Debug\dopZadanie2.pdb
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.csproj.AssemblyReference.cache
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\MainWindow.g.cs
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\App.g.cs
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2_MarkupCompile.cache
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2_MarkupCompile.lref
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\MainWindow.baml
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.g.resources
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.Properties.Resources.resources
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.csproj.GenerateResource.cache
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.csproj.CoreCompileInputs.cache
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.exe
+D:\prakticTSR\praktic2TSR\dopZadanie2\obj\Debug\dopZadanie2.pdb
